@@ -23,6 +23,7 @@ app.post("/user", (req, res) => {
     lastname: data.lastname,
     age: data.age,
   };
+  
   counter += 1;
 
   users.push(newUser);
